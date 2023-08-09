@@ -44,3 +44,11 @@ streamlit.dataframe(fruityvice_normalized)
 
 import snowflake.connector
 
+[snowflake]
+user = "xxx"
+password = "xxx"
+account = "acctlocator.region.cloud" <--Replace this with your Account Locator, etc - and delete this comment
+warehouse = "pc_rivery_wh" 
+database = "pc_rivery_db" 
+schema = "public"
+role = "pc_rivery_role"
